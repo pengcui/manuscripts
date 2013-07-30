@@ -1,0 +1,2115 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass extarticle
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "urlcolor=blue, citecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 3cm
+\headsep 3cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\size large
+\color black
+Cover Letter
+\end_layout
+
+\begin_layout Standard
+Dear Editor, 
+\end_layout
+
+\begin_layout Standard
+Our manuscript “A quantitative analysis about the impact on chromatin accessibil
+ity by histone modifications and binding of transcription factors” is under
+ submission to “BioMed Research International”.
+ 
+\end_layout
+
+\begin_layout Standard
+It is known that chromatin features such as histone modifications and the
+ binding of transcription factors exert a significant impact on the “openness”
+ of chromatin.
+ In this study, we present a quantitative analysis of the genome-wide relationsh
+ip between chromatin features and chromatin accessibility.
+ We derived quantitative models to directly predict the “openness” of chromatin
+ using histone modification features and transcription factor binding features
+ respectively.
+ We show that both these two types of features are highly predictive for
+ chromatin accessibility in a statistical viewpoint.
+ Our study provides new insights into the combinatorial effects of different
+ chromatin features to chromatin accessibility.
+ 
+\end_layout
+
+\begin_layout Standard
+Your favorable consideration would be highly appreciated.
+ 
+\end_layout
+
+\begin_layout Standard
+Yours sincerely, 
+\end_layout
+
+\begin_layout Standard
+Lu Xie, Ph.D., M.D., Professor 
+\end_layout
+
+\begin_layout Standard
+Vice Director, PI of Translational Medicine Group 
+\end_layout
+
+\begin_layout Standard
+Shanghai Center for Bioinformation Technology 
+\end_layout
+
+\begin_layout Standard
+1278 Keyuan Rd.
+ Fl.
+ 2, Shanghai 201203, P.R.China 
+\end_layout
+
+\begin_layout Standard
+Tel/Fax: +86-21-20283705; Email: xielu@scbit.org 
+\end_layout
+
+\begin_layout Standard
+Homepage: 
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.scbit.org/scbit_en/pages/detailEntry.do?id=3&cid=5"
+target "http://www.scbit.org/scbit_en/pages/detailEntry.do?id=3&cid=5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+A quantitative analysis about the impact on chromatin accessibility by histone
+ modifications and binding of transcription factors 
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size large
+Peng Cui
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, Jing Li
+\begin_inset Formula $^{1}$
+\end_inset
+
+, Bo Sun
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, Menghuan Zhang
+\begin_inset Formula $^{1}$
+\end_inset
+
+, Baofeng Lian
+\begin_inset Formula $^{1,2}$
+\end_inset
+
+, Yixue Li
+\begin_inset Formula $^{1,2,*}$
+\end_inset
+
+, Lu Xie
+\begin_inset Formula $^{2,*}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{1}$
+\end_inset
+
+School of Life Science and Biotechnology, Shanghai Jiao Tong University,
+ 800 Dong Chuan Road, Shanghai 200240, China 
+\end_layout
+
+\begin_layout Address
+\begin_inset Formula $^{2}$
+\end_inset
+
+Shanghai Center for Bioinformation Technology, 1278 Ke Yuan Road, Shanghai
+ 201203, China 
+\end_layout
+
+\begin_layout Address
+*Correspondence should be addressed to: xielu@scbit.org.
+ Tel/Fax: +86-21-20283705.
+ *Correspondence may also be addressed to: yxli@sibs.ac.cn.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\size normal
+It is known that chromatin features such as histone modifications and the
+ binding of transcription factors exert a significant impact on the “openness”
+ of chromatin.
+ In this study, we present a quantitative analysis of the genome-wide relationsh
+ip between chromatin features and chromatin accessibility in DNase I hypersensit
+ive sites.
+ We found that these features show distinct preference to localize in open
+ chromatin.
+ In order to elucidate the exact impact, we derived quantitative models
+ to directly predict the 
+\begin_inset Quotes eld
+\end_inset
+
+openness
+\begin_inset Quotes erd
+\end_inset
+
+ of chromatin using histone modification features and transcription factor
+ binding features respectively.
+ We show that both these two types of features are highly predictive for
+ chromatin accessibility in a statistical viewpoint.
+ Moreover, our results indicate that these features are highly redundant
+ and only a small number of features are needed to achieve a very high predictiv
+e power.
+ Our study provides new insights into the true biological phenomena and
+ the combinatorial effects of different chromatin features to DNase I hypersensi
+tivity.
+\end_layout
+
+\begin_layout Abstract
+
+\size normal
+Keywords: Chromatin accessibility, Histone modifications, Transcription
+ factor binding, Regression analysis
+\end_layout
+
+\begin_layout Abstract
+
+\size normal
+\color black
+Abbreviations
+\end_layout
+
+\begin_layout Abstract
+
+\size normal
+\color black
+DHS, DNase I hypersensitive site ; HM, histone modification; SVR, support
+ vector regression; SCC, spearman correlation coefficient
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+1.
+ Introduction
+\end_layout
+
+\begin_layout Standard
+In eukaryotes, DNA is organized into chains of nucleosomes, each of which
+ consists of about 146bp of DNA wrapped around an octamer of four types
+ of histones 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-1"
+
+\end_inset
+
+.
+ The packaging of chromatin into nucleosomes provides a repressive environment
+ for many DNA-binding proteins and plays an important role on the regulation
+ of transcription 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-2"
+
+\end_inset
+
+.
+ However, some domains in chromatin are depleted of nucleosomes and exhibit
+ highly accessible structure.
+ These nucleosome-free regions are super sensitive to the cleavage of DNase
+ I 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-3"
+
+\end_inset
+
+ and are known as DNase I hypersensitive sites (DHSs).
+ They are predominantly found in many active genes and cis-regulatory elements
+ 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-4"
+
+\end_inset
+
+.
+ The dynamic alterations of “openness” in chromatin play import roles in
+ many biological processes, including transcription 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-5"
+
+\end_inset
+
+, replication 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-2"
+
+\end_inset
+
+ and differentiation 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-6"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Traditionally, the experimental technique of choice to discover the DNase
+ I hypersensitive sites is Southern blotting 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-7"
+
+\end_inset
+
+.
+ However, this low-throughput method is not able to study large chromosomal
+ regions at a time and can't  represent the “openness” of chromatin in a
+ quantitative manner.
+ The significance of differential accessibility in DNase I hypersensitive
+ sites is unknown, but it may reflect some important biological phenomena
+ like histone modifications and protein occupation 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-8"
+
+\end_inset
+
+.
+ Even until now genome-wide quantitative analyses of the relationship between
+ DNase I hypersensitivity and chromatin features are rare.
+ By taking advantage of the abundant datasets of the ENCODE project 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-9"
+
+\end_inset
+
+, we analyzed genome-wide localization data of DNase I hypersensitive sites
+ and 33 chromatin features in H1hesc (human embryonic stem cell) cell line.
+ All datasets were generated by recently developed genome-wide high throughput
+ experimental techniques, such as Chip-seq 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-10,key-11"
+
+\end_inset
+
+ and DNase-seq 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+It is generally accepted that histone modifications and the binding of transcrip
+tion factors are two main effectors for the “openness” of chromatin.
+ Previous studies have shown that histone modifications and transcription
+ factors tend to occur near or just in the DNase I hypersensitive sites
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-8,key-13"
+
+\end_inset
+
+.
+ Recently, two studies, one in K562 cell line and the other in Drosophila
+ embryonic cells, have demonstrated that transcription factor binding sites
+ and the chromatin accessibility are highly correlated with each other 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-6,key-13"
+
+\end_inset
+
+.
+ Although these studies provided important information, so far, quantitative
+ analysis about the combinatorial effects of different chromatin features
+ and the biological significance of differential hypersensitivity is still
+ unclear.
+ In this work, we built support vector regression (SVR) models to directly
+ predict the “openness” of chromatin in DNase I hypersensitive sites using
+ combined chromatin features.
+ Our results indicate that both histone modification features and transcription
+ factor binding features are predictive for chromatin accessibility with
+ high accuracy and these chromatin features are highly redundant.
+ 
+\end_layout
+
+\begin_layout Section*
+2.
+ Materials and Methods 
+\end_layout
+
+\begin_layout Subsection*
+2.1 Datasets.
+ 
+\end_layout
+
+\begin_layout Standard
+All datasets are from ENCODE project, which aims to build a comprehensive
+ list of functional elements in the human genome 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-9"
+
+\end_inset
+
+.
+ The 10 histone modifications (HMs) and binding sites of 23 transcription
+ factors (TFs) were quantified using Chip-seq and downloaded from the tracks
+ of UCSC Genome Browser at 
+\begin_inset CommandInset href
+LatexCommand href
+name "ENCODE/Broad Institute"
+target "http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=340978835&c=chr21&g=wgEncodeBroadHistone"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "ENCODE/Stanford/Yal\\\\ e/USC/Harvard"
+target "http://genome.ucsc.edu/cgi-bin/hgFileUi?db=hg19&g=wgEncodeSydhTfbs"
+
+\end_inset
+
+.
+ The chromatin accessibility dataset was measured using DNase-seq and downloaded
+ from 
+\begin_inset CommandInset href
+LatexCommand href
+name "ENCODE/OpenChrom (Duke/UNC/UTA)"
+target "http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=341419765&c=chr21&g=wgEncodeDNAseSuper"
+
+\end_inset
+
+.
+ Each dataset includes the genome-wide sequencing signals and regions of
+ statistically enriched signal (peaks).
+ Peaks can be viewed as locations of chromatin features and DNase I hypersensiti
+ve sites respectively.
+ DNase I hypersensitivity could not be simply viewed as binary property
+ (peaks versus non-peaks) but rather continuous values (sequencing signals)
+ representing differential chromatin accessibility.
+ These datasets come from the common H1hesc cell line.
+ 
+\end_layout
+
+\begin_layout Subsection*
+2.2 Mapping HM and TF binding peaks to the DNase I hypersensitive sites 
+\end_layout
+
+\begin_layout Standard
+We obtained genomic locations of 33 chromatin feature profiles, all together
+ including 582489 histone modification peaks (10 HMs) and 443217 transcription
+ factor binding peaks (23 TFs).
+ For each profile, we mapped the peaks of feature onto the genome and examined
+ whether it localized in open chromatin or not.
+ The presence or absence of chromatin feature within accessible chromatin
+ was decided by overlap or non-overlap with DNase-seq peaks.
+ If there was any amount of overlap within accessible chromatin (DNase-seq
+ peaks), we counted as a presence 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-13"
+
+\end_inset
+
+.
+ Then, we calculated the percentage of the peaks occurring in the DNase
+ I hypersensitive sites for each feature.
+ 
+\end_layout
+
+\begin_layout Subsection*
+2.3 Supervised learning methods for chromatin accessibility prediction 
+\end_layout
+
+\begin_layout Standard
+To investigate the quantitative relationship between chromatin accessibility
+ and these chromatin features, we constructed support vector regression
+ (SVR) models for HM and TF binding features respectively.
+ Concretely, in every DNase I hypersensitive site, we calculated the maximum
+ signal of DNase-Seq and the corresponding maximum signal of Chip-Seq for
+ each chromatin feature.
+ For the sake of figuring out whether the maximum signal exhibits largest
+ prediction power or not, as a comparison, we also calculated the average
+ signal of Chip-seq and DNase-seq for each region.
+ Then, SVR model was built to predict the chromatin accessibility using
+ signals of these chromatin features.
+ SVR is a machine learning algorithm based on statistical theory for regression
+ problems 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-14,key-15"
+
+\end_inset
+
+.
+ We implemented this algorithm using the “e1071” R package 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-16"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In order to reduce the computation cost, we randomly selected 5000 DHSs
+ for our samples.
+ The sample size analysis indicated that the prediction power increased
+ only moderately after the size reached 2000.
+ So the sample size of 5000 is big enough to represent the entire dataset
+ (Supplementary Figure).
+ We used the 10 fold cross-validation method to evaluate the prediction
+ power.
+ Specifically, we randomly split our whole dataset into 10 equal size subsets.
+ Among them 9 subsets were used as training data and the remaining subset
+ was treated as the validation data for testing the model.
+ This process was repeated 10 times and each subset could only be used once
+ as the validation data.
+ After that, we combined the results and calculated the spearman correlation
+ coefficient (SCC) between predicted signals and actual DNase-seq signals.
+ The SCC can be viewed as the prediction power.
+ And the square of SCC (coefficient of determination) can be viewed as the
+ proportion of the variation in chromatin accessibility that can be explained
+ by the model.
+ 
+\end_layout
+
+\begin_layout Subsection*
+2.4 Analysis of the importance for each chromatin feature and the combinatorial
+ effects of different features 
+\end_layout
+
+\begin_layout Standard
+To estimate which feature exhibits the maximal prediction power, we predicted
+ the chromatin accessibility using only one feature.
+ And to investigate whether HM features and TF binding features are redundant,
+ we next predicted the 
+\begin_inset Quotes eld
+\end_inset
+
+openness
+\begin_inset Quotes erd
+\end_inset
+
+ of chromatin using all features.
+ We also explored the combinatorial effects of these features.
+ All possible one-feature (C
+\begin_inset Formula $_{33}^{1}$
+\end_inset
+
+), two-feature (C
+\begin_inset Formula $_{33}^{2}$
+\end_inset
+
+) and three-feature (C
+\begin_inset Formula $_{33}^{3}$
+\end_inset
+
+) models were evaluated by their performance.
+ 
+\end_layout
+
+\begin_layout Subsection*
+2.5 Model comparison analysis 
+\end_layout
+
+\begin_layout Standard
+Instead of SVR algorithm, we also explored the quantitative relationship
+ between chromatin features and chromatin accessibility with linear regression
+ model.
+ Similarly, HM features, TF binding features and HM+TF feature combinations
+ were applied to linear regression model respectively.
+ The spearman correlation coefficient of the predicted signals and the actual
+ DNase-seq signals were calculated and compared with the SVR models.
+ In order to identify whether the maximum signals or the average signals
+ exhibit largest prediction power, we also applied these models with the
+ average signals of chromatin features to predict the average signals of
+ DNase-seq.
+ 
+\end_layout
+
+\begin_layout Section*
+3.
+ Results 
+\end_layout
+
+\begin_layout Subsection*
+3.1 The localization preference of chromatin features 
+\end_layout
+
+\begin_layout Standard
+We analyzed genome-wide localization of 33 Chip-seq profiles in the human
+ embryonic stem cell line (H1hesc) from ENCODE project 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-9"
+
+\end_inset
+
+, including 10 histone modifications, and the binding sites of 23 transcription
+ factors.
+ For each profile, we mapped the peaks of Chip-seq dataset to the DNase
+ I hypersensitive sites (see Materials and Methods).
+ Figure 1 shows the percentage of the peaks within the accessible chromatin
+ for each feature.
+ We observed that different chromatin feature exhibits different preference
+ to chromatin accessibility.
+ For histone modifications, H3k4me3 exerts the largest preference of accessible
+ chromatin.
+ 82.2% H3k4me3 peaks located in DHS.
+ On the contrary, most H3k9me3 occurred out of DHS (93.7%), which indicated
+ that H3k9me3 was associated with heterochromatin 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-17"
+
+\end_inset
+
+.
+ Compared to histone modifications, a majority of transcription factors
+ tend to bind onto accessible chromatin, which suggests that the process
+ of transcription requires an open chromatin structure 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-18"
+
+\end_inset
+
+.
+ The mean percentage of transcription factors locating in DHS is 60.5%, higher
+ than that of histone modifications (45.1%).
+ 
+\end_layout
+
+\begin_layout Subsection*
+3.2 Predicting chromatin accessibility using histone modifications features
+ 
+\end_layout
+
+\begin_layout Standard
+In order to examine the quantitative relationship between chromatin accessibilit
+y and HM features in a combinatorial manner, we constructed SVR model to
+ predict the “openness” of chromatin in DNase I hypersensitive sites using
+ all histone modification features.
+ We can see from Figure 2(a) that the predicted signals and the actual DNase-Seq
+ signals are highly correlated with each other.
+ The spearman correlation coefficient (SCC=0.70) can be viewed as the prediction
+ power.
+ This analysis suggests that histone modification features may explain less
+ than 50% (the square of SCC) variance of chromatin accessibility.
+ 
+\end_layout
+
+\begin_layout Standard
+We next examined the prediction power for every histone modification feature.
+ Figure 2(b) shows that H3k4me3, H3k4me2 and H3k9ac exhibit the most important
+ effects to chromatin accessibility (SCC = 0.58, 0.58, 0.57 respectively).
+ These histone modifications are generally enriched in the promoters of
+ expressed genes 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-19"
+
+\end_inset
+
+ and the open chromatin structure plays an important role in regulating
+ the complex transcription process.
+ On the other hand, H3k27me3, H3k9me3 and H3k36me3 exhibit the least prediction
+ powers (SCC= 0.33, 0.30, 0.21 respectively), which suggests that these modificatio
+ns are associated with heterochromatin 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-20,key-21"
+
+\end_inset
+
+.
+ Interestingly, H3k27ac and H4k20me1, which are the most predictive histone
+ modifications for gene expression levels 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-22"
+
+\end_inset
+
+, are not the most important features associated with chromatin accessibility.
+ 
+\end_layout
+
+\begin_layout Subsection*
+3.3 Predicting chromatin accessibility using transcription factor binding
+ features 
+\end_layout
+
+\begin_layout Standard
+Previous studies have shown that transcription factors tend to bind onto
+ open chromatin and they are highly correlated with each other 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-6,key-13"
+
+\end_inset
+
+.
+ To investigate the quantitative relationship of the binding of transcription
+ factors and the chromatin accessibility in a combinatorial manner, we next
+ applied our SVR model to all TF binding features.
+ As shown in Figure 3(a), the TF model achieves a correlation of 0.73 which
+ is a little higher than that achieved by HM model.
+ These TF binding features can explain more than 50% (the square of SCC)
+ variance of chromatin accessibility.
+\end_layout
+
+\begin_layout Standard
+For the prediction power of particular TF binding feature, there is a difference
+ with that of histone modifications, that is, most transcription factors
+ exhibit important effects to chromatin accessibility (Figure 3(b)).
+ This is consistent with their functions because transcription factors directly
+ control the complex transcription process 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-23"
+
+\end_inset
+
+ which requires an open chromatin environment.
+ However, a small group of features exhibit lower prediction powers, such
+ as ZNF274, SUZ12 and CTCF (SCC=0.31, 0.38, 0.42 respectively).
+ ZNF274 and SUZ12 are known to be transcriptional repressors 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-24,key-25"
+
+\end_inset
+
+.
+ CTCF has many roles, such as transcriptional repression, insulator function,
+ and imprinting genetic information 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-26"
+
+\end_inset
+
+.
+ These factors are not so important to contribute to the “openness” of chromatin.
+ 
+\end_layout
+
+\begin_layout Subsection*
+3.4 Chromatin features are highly redundant to chromatin accessibility 
+\end_layout
+
+\begin_layout Standard
+The above analyses suggest that both histone modification features and transcrip
+tion factor binding features are predictive for chromatin accessibility
+ with high accuracy in DNase I hypersensitive sites.
+ So there is a question that whether the prediction power will increase
+ if we use all these features.
+ To address this question, we directly predicted the “openness” of chromatin
+ using all features.
+ As shown in Figure 4(a), the prediction power (SCC=0.77) is only a little
+ higher than using only TF binding features, which indicates that these
+ two types of features are highly redundant.
+ To check the importance of different features and their combinatorial effects,
+ we tried to build models with all possible combinations of one to three
+ features (Figure 4(b)).
+ Focusing on the three-feature combinations (5456 models), we found that
+ the least prediction power combinations (H3k36me3, H4k20me1and H3k79me2,
+ SCC=0.44) could achieve more than 57% prediction power of the full model
+ (SCC= 0.77).
+ And there are 137 combinations achieving more than 90% prediction power
+ of the full one.
+ These analyses indicate that most of these features are highly redundant
+ for chromatin accessibility.
+ 
+\end_layout
+
+\begin_layout Standard
+By examining the 137 high prediction powered combinations, we found that
+ five chromatin features , SUZ12, SIN3A, H3k4me3, H3k9ac, GTF2F1, were significa
+ntly enriched (p<0.01, hypergeometric test) in the set of 137 models.
+ Interestingly, all these features showed high prediction powers in the
+ one-feature models except SUZ12.
+ This may indicate that SUZ12 has lower redundancy than other features and
+ is more specific for prediction.
+ This was supported by the finding that the correlation of SUZ12 levels
+ with the other four features were 0.14, 0.21, 0.26 and 0.12.
+ SUZ12 is a part of Polycomb Repressive Complex 2 (PRC2) and may be involved
+ in chromatin silencing with non-coding RNA 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-24"
+
+\end_inset
+
+.
+ The mechanisms of how SUZ12 influences chromatin structure is unknown,
+ however, it may exert distinct impact on chromatin accessibility compared
+ with other features.
+ 
+\end_layout
+
+\begin_layout Subsection*
+3.5 Comparison with other models 
+\end_layout
+
+\begin_layout Standard
+In this study, we chose the SVR algorithm and the maximum signal in every
+ region to model the relationship between chromatin features and chromatin
+ accessibility.
+ Generally, the SVR algorithm is a nonlinear regression method.
+ We also have explored modeling using linear regression model with the average
+ signal in every region.
+ As shown in Table1, prediction powers of models using average signal are
+ significantly lower than the maximum signal models.
+ And in either situation, the SVR models exhibit higher prediction power
+ than linear models.
+ Our results indicate that the “openness” of chromatin is determined by
+ the maximum signal of features and their relationships are assumed as a
+ non-linear relevance.
+ 
+\end_layout
+
+\begin_layout Section*
+4.
+ Discussion 
+\end_layout
+
+\begin_layout Standard
+In this work, we presented quantitative analyses of the relationship of
+ histone modifications and the binding of transcription factors to chromatin
+ accessibility separately and combinedly in DNase I hypersensitive sites.
+ We first examined the percentage of feature peaks within DNase hypersensitive
+ sites (DHSs) in human embryonic stem cell (H1hesc) line.
+ We found that different chromatin features showed different location preference
+ in DHS.
+ This may be due to the particular function of different chromatin features.
+ Robert E.
+ Thurman et al have done similar analysis in K562 cell line 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-13"
+
+\end_inset
+
+ for TF binding features.
+ In our analysis, we find that the percentage of transcription factors within
+ DHS are significantly lower in the H1hesc cell line than that in K562 cell
+ line.
+ The reason may be, in order to maintain the 
+\begin_inset Quotes eld
+\end_inset
+
+stemness
+\begin_inset Quotes erd
+\end_inset
+
+ state, most genes are repressed in the stem cell compared to the cancer
+ cell line K562.
+ This phenomenon means that the degree to what extent chromatin features
+ occur in accessible chromatin may differ according to different cellular
+ circumstances.
+ 
+\end_layout
+
+\begin_layout Standard
+Our results demonstrate that both histone modification (HM) features and
+ transcription factor (TF) binding features account for nearly or more than
+ 50% variation of chromatin accessibility in H1hesc cell line.
+ For histone hallmarks, many activators of gene expression exhibited important
+ impact on the “openness” chromatin, such as H3k4me 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-20"
+
+\end_inset
+
+ and histone acetylations 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-27"
+
+\end_inset
+
+.
+ The hallmarks of repressors for gene expression such as H3k9me3 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-20"
+
+\end_inset
+
+ show lower prediction powers.
+ Unexpectedly, the transcription elongation hallmark H3k36me3 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-28"
+
+\end_inset
+
+ shows the least prediction power.
+ This is consistent with the viewpoint of a recently published paper.
+ Sophie Chantalat et al 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-21"
+
+\end_inset
+
+ argued that H3k36me3 is associated with constitutive and facultative heterochro
+matin.
+ For TF binding features, the majority of TFs showed an important impact
+ on chromatin accessibility except some transcriptional repressors, such
+ as ZNF274 and SUZ12.
+ This may indicate that the complex transcription process requires open
+ chromatin environment 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-18"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+It is generally accepted that cellular factors regulate the complex dynamic
+ change of chromatin structure in a collective way.
+ We have shown that these features are highly redundant to predict chromatin
+ accessibility and a small subgroup of features are able to achieve a very
+ high prediction power.
+ However, the mechanism of how these features cooperatively impact the openness
+ of chromatin is still unclear and we must note that our analysis could
+ not reveal the 
+\begin_inset Quotes eld
+\end_inset
+
+cause
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+consequence
+\begin_inset Quotes erd
+\end_inset
+
+ relationship of HM and TF binding features to chromatin accessibility.
+ Histone modifications play an important role in creating and maintaining
+ the accessible chromatin environment 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-29"
+
+\end_inset
+
+ and may act as docking sites for transcription factors 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-30"
+
+\end_inset
+
+.
+ Some pioneer TFs tend to bind onto the genome and create an accessible
+ site, such as FoxA1 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "key-31"
+
+\end_inset
+
+ which is the best known pioneer transcription factor.
+ Then, more transcription factors tend to bind onto the opening site and
+ the DNase I hypersensitive site is created.
+ As an extension, future work could explore the mechanisms of how these
+ features cooperatively regulate open chromatin structure and their causal
+ relationships, based on increased datasets.
+ 
+\end_layout
+
+\begin_layout Section*
+5.
+ Conclusion
+\end_layout
+
+\begin_layout Standard
+We present genome-wide quantitative analysis about the impact of chromatin
+ features to chromatin accessibility in DNase I hypersensitive sites.
+ Our findings indicate that histone modifications and the binding of transcripti
+on factors could explain nearly or more than 50% variation of the 
+\begin_inset Quotes eld
+\end_inset
+
+openness
+\begin_inset Quotes erd
+\end_inset
+
+ of chromatin structure.
+ The combinatorial effect analyses reveal that these chromatin features
+ are highly redundant for prediction and SIN3A, H3k4me3, H3k9ac, GTF2F1
+ show closest association with chromatin accessibility.
+ Our results provide insights into the systematic effects of different chromatin
+ features to DNase I hypersensitivity.
+ 
+\end_layout
+
+\begin_layout Section*
+Acknowledgements 
+\end_layout
+
+\begin_layout Standard
+This work was funded by National Key Basic Research Program (2010CB912702,
+ 2011CB910204), National Hi-Tech program (2012AA020201), National Natural
+ Science Foundation of China (31070752).
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+ K.
+ Luger, A.W.
+ Mäder, R.K.
+ Richmond, D.F.
+ Sargent, T.J.
+ Richmond, Crystal structure of the nucleosome core particle at 2.8 A resolution.,
+ Nature.
+ 389 (1997) 251–260.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+J.
+ Anderson, J.
+ Widom, Sequence and position-dependence of the equilibrium accessibility
+ of nucleosomal DNA target sites., Journal of Molecular Biology.
+ 296 (2000) 979–987.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-3"
+
+\end_inset
+
+C.
+ Dingwall, G.P.
+ Lomonossoff, R.A.
+ Laskey, High sequence specificity of micrococcal nuclease., Nucleic Acids
+ Research.
+ 9 (1981) 2659–2674.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-4"
+
+\end_inset
+
+D.S.
+ Gross, W.T.
+ Garrard, Nuclease Hypersensitive Sites in Chromatin., Annual Review of Biochemis
+try.
+ 57 (1988) 159–197.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-5"
+
+\end_inset
+
+P.
+ Cockerill, Structure and function of active chromatin and DNase I hypersensitiv
+e sites., FEBS Journal.
+ 278 (2011) 2182–2210.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-6"
+
+\end_inset
+
+X.-Y.
+ Li, S.
+ Thomas, P.J.
+ Sabo, M.B.
+ Eisen, J.
+ a Stamatoyannopoulos, M.D.
+ Biggin, The role of chromatin accessibility in directing the widespread,
+ overlapping patterns of Drosophila transcription factor binding., Genome
+ Biology.
+ 12 (2011) R34.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-7"
+
+\end_inset
+
+Lu, Qianjin, and Bruce Richardson.
+ DNaseI hypersensitivity analysis of chromatin structure, In Epigenetics
+ Protocols, Humana Press, 2004, pp.
+ 77-86.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-8"
+
+\end_inset
+
+A.P.
+ Boyle, S.
+ Davis, H.P.
+ Shulha, P.
+ Meltzer, E.H.
+ Margulies, Z.
+ Weng, et al., High-resolution mapping and characterization of open chromatin
+ across the genome., Cell.
+ 132 (2008) 311–322.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-9"
+
+\end_inset
+
+I.
+ Dunham, A.
+ Kundaje, S.F.
+ Aldred, P.J.
+ Collins, C.A.
+ Davis, F.
+ Doyle, et al., An integrated encyclopedia of DNA elements in the human genome.,
+ Nature.
+ 489 (2012) 57–74.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-10"
+
+\end_inset
+
+P.J.
+ Park, ChIP-seq: advantages and challenges of a maturing technology., Nature
+ Reviews.
+ Genetics.
+ 10 (2009) 669–680.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+E.R.
+ Mardis, ChIP-seq: welcome to the new frontier., Nature Methods.
+ 4 (2007) 613–613.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+L.
+ Song, G.E.
+ Crawford, DNase-seq: a high-resolution technique for mapping active gene
+ regulatory elements across the genome from mammalian cells., Cold Spring
+ Harbor Protocols.
+ 2010 (2010) pdb.prot5384.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+R.E.
+ Thurman, E.
+ Rynes, R.
+ Humbert, J.
+ Vierstra, M.T.
+ Maurano, E.
+ Haugen, et al., The accessible chromatin landscape of the human genome.,
+ Nature.
+ 489 (2012) 75–82.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+Cristianini, Nello, and John Shawe-Taylor.
+ An introduction to support vector machines and other kernel-based learning
+ methods.
+ Cambridge university press, 2000.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+C.
+ Cheng, K.-K.
+ Yan, K.Y.
+ Yip, J.
+ Rozowsky, R.
+ Alexander, C.
+ Shou, et al., A statistical framework for modeling gene expression using
+ chromatin features and application to modENCODE datasets., Genome Biology.
+ 12 (2011) R15.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+Dimitriadou, Evgenia, Kurt Hornik, Friedrich Leisch, David Meyer, and Andreas
+ Weingessel, Misc functions of the Department of Statistics (e1071), TU
+ Wien, R package (2008) 1-5.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-17"
+
+\end_inset
+
+J.
+ Bartkova, P.
+ Moudry, Z.
+ Hodny, J.
+ Lukas, R.D.
+ Meyts, J.
+ Bartek, Heterochromatin marks HP1
+\begin_inset Formula $\gamma$
+\end_inset
+
+, HP1
+\begin_inset Formula $\alpha$
+\end_inset
+
+ and H3K9me3, and DNA damage response activation in human testis development
+ and germ cell tumours., International journal of andrology 34 (2011) 103-113.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-18"
+
+\end_inset
+
+D.
+ Sproul, N.
+ Gilbert, W.A.
+ Bickmore, The role of chromatin structure in regulating the expression
+ of clustered genes., Nature Reviews.
+ Genetics.
+ 6 (2005) 775–781.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-19"
+
+\end_inset
+
+K.
+ Regha, M.A.
+ Sloane, R.
+ Huang, F.M.
+ Pauler, K.E.
+ Warczok, B.
+ Melikant, et al., Active and repressive chromatin are interspersed without
+ spreading in an imprinted gene cluster in the mammalian genome., Molecular
+ Cell.
+ 27 (2007) 353–366.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-20"
+
+\end_inset
+
+R.
+ Margueron, D.
+ Reinberg, Chromatin structure and the inheritance of epigenetic information.,
+ Nature Reviews.
+ Genetics.
+ 11 (2010) 285–296.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+
+\end_inset
+
+S.
+ Chantalat, A.
+ Depaux, P.
+ Héry, S.
+ Barral, J.-Y.
+ Thuret, S.
+ Dimitrov, et al., Histone H3 trimethylation at lysine 36 is associated with
+ constitutive and facultative heterochromatin., Genome Research.
+ 21 (2011) 1426–1437.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+
+\end_inset
+
+R.
+ Karlić, H.-R.
+ Chung, J.
+ Lasserre, K.
+ Vlahovicek, M.
+ Vingron, Histone modification levels are predictive for gene expression.,
+ Proceedings of the National Academy of Sciences of the United States of
+ America.
+ 107 (2010) 2926–2931.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-23"
+
+\end_inset
+
+G.
+ Gill, Regulation of the initiation of eukaryotic transcription., Essays
+ Biochem.
+ 37 (2001), 33-43.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-24"
+
+\end_inset
+
+J.L.
+ Rinn, M.
+ Kertesz, J.K.
+ Wang, S.L.
+ Squazzo, X.
+ Xu, S.A.
+ Brugmann, et al., Functional demarcation of active and silent chromatin
+ domains in human HOX loci by noncoding RNAs., Cell.
+ 129 (2007) 1311–1323.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-25"
+
+\end_inset
+
+K.
+ Yano, N.
+ Ueki, T.
+ Oda, N.
+ Seki, Y.
+ Masuho, M.
+ Muramatsu, Identification and characterization of human ZNF274 cDNA, which
+ encodes a novel kruppel-type zinc-finger protein having nucleolar targeting
+ ability., Genomics.
+ 65 (2000) 75–80.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-26"
+
+\end_inset
+
+K.L.D.
+ Dunn, J.R.
+ Daive, The many roles of the transcriptional regulator CTCF., Biochemistry
+ & Cell Biology 81 (2003), 161-167.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-27"
+
+\end_inset
+
+B.M.
+ Turner, Histone acetylation and an epigenetic code., BioEssays.
+ 22 (2000) 836–845.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-28"
+
+\end_inset
+
+S.M.
+ Fuchs, R.N.
+ Laribee, B.D.
+ Strahl, Protein modifications in transcription elongation., Biochimica Et
+ Biophysica Acta.
+ 1789 (2009) 26–36.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-29"
+
+\end_inset
+
+J.
+ Marx, Molecular biology.
+ Protein tail modification opens way for gene activity., Science.
+ 311 (2006) 757-757.
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-30"
+
+\end_inset
+
+O.
+ Bell, V.K.
+ Tiwari, N.H.
+ Thomä, D.
+ Schübeler, Determinants and dynamics of genome accessibility., Nature Reviews.
+ Genetics.
+ 12 (2011) 554–564.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-31"
+
+\end_inset
+
+L.A.
+ Cirillo, F.R.
+ Lin, I.
+ Cuesta, D.
+ Friedman, M.
+ Jarnik, K.S.
+ Zaret, Opening of Compacted Chromatin by Early Developmental Transcription
+ Factors HNF3 (FoxA) and GATA-4., Molecular Cell.
+ 9 (2002) 279–289.
+ 
+\end_layout
+
+\begin_layout Section*
+Figure Legends
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 1.
+
+\series default
+ The percentages of histone modification (HM) and transcription factor (TF)
+ binding features within accessible chromatin region.
+ The black circle and blue triangle represents HM features and TF binding
+ features respectively.
+ The two red lines represent the mean percentages for HMs and TFs respectively.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 2.
+
+\series default
+ The prediction powers of chromatin accessibility using HM features.
+ (a) Scatter plot of predicted versus experimentally measured DNase-seq
+ signals using all HM features.
+ The black line represents the linear fit between predicted and measured
+ signals (SCC, spearman correlation coefficient).
+ (b) Prediction powers of the SVR models using only one particular HM feature.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 3.
+
+\series default
+ The prediction powers of chromatin accessibility with TF binding features.
+ (a) Scatter plot of predicted versus experimentally measured DNase-seq
+ signals using all TF binding features.
+ The black line represents the linear fit between predicted and measured
+ signals (SCC, spearman correlation coefficient).
+ (b) Prediction powers of the SVR models using only one particular TF binding
+ feature.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 4.
+
+\series default
+ Redundancy of HM features and TF binding features.
+ (a) Scatter plot of predicted versus experimentally measured DNase-seq
+ signals using all HM and TF binding features.
+ (SCC, spearman correlation coefficient).
+ (b) Comparison of prediction powers between all possible one-feature, two-featu
+re, three-feature models and the full model in H1hesc.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Table 1.
+
+\series default
+ Comparison of prediction powers with different models.
+ The prediction power is represented as Spearman correlation coefficient
+ of predicted signal and the actual DNase-seq signal.
+ LM: linear regression model.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Supplementary materials 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Supple.
+ Figure.
+
+\series default
+ The prediction powers using all features with different sample sizes.
+ In each sample size, we randomly sampled 500 times and modeling according
+ to the procedure discussed in method 2.3 in each sample.
+ It can be seen that the prediction power increases with the rising of sample
+ size.
+ However, when the sample size reaches 2000, the prediction power increases
+ only moderately.
+ We chose 5000 as our sample size.
+ The mean prediction power of 5000 sample size is 0.774±0.006 .
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 1.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure1.pdf
+	scale 70
+	BoundingBox 35bp 0bp 720bp 432bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure2.pdf
+	scale 65
+	BoundingBox 80bp 0bp 864bp 360bp
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure3.pdf
+	scale 65
+	BoundingBox 80bp 0bp 864bp 360bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Figure 4.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure4.pdf
+	scale 65
+	BoundingBox 80bp 0bp 864bp 360bp
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Table 1.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Model
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SVR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SVR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LM
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(max_signal)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(max_signal)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(avg_signal)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(avg_signal)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.70
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.60
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.51
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.73
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.68
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.63
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.56
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HM+TF
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.77
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.71
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.67
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.59
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Supple.
+ Figure.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/AddFigure.pdf
+	scale 70
+	BoundingBox 50bp 0bp 720bp 432bp
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
