@@ -1,0 +1,22 @@
+his=read.table('mywork/Dnase1/zlater/data_avg/d5_histonepeak',head=F)
+tfbs=read.table('mywork/Dnase1/zlater/data_avg/d5_tfbspeak',head=F)
+head(his)
+myhis=his[-c(1,2),]
+mytfbs=tfbs[-c(1,9,18,19),]
+myhis[,1]
+head(mytfbs)
+plot(myhis[,2],xlim=c(1,34),ylim=c(0,1),yaxt='n',xaxt='n',ylab='% of Peaks in Accessible Chromatin',line=2.4,xlab=NA)
+abline(v=11)
+points(c(NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,mytfbs[,2]),xlim=c(12,34),pch=2,col=3)
+axis(2)
+mtext(c(as.vector(myhis[,1]),as.vector(mytfbs[,1])),side=1,at=c(1:10,12:34),las=2,cex=0.9,line=0.2)
+library('graphics')
+text(1,mean(myhis[,2]),'mean',col=2,cex=0.9)
+text(12.5,mean(mytfbs[,2]),'mean',col=2,cex=0.9)
+legend(0.5,1.0,pch=c(1,2),legend=c('HM','TF'),cex=0.8,col=c(1,3))
+clip(x1=2,x2=11,y1=0,y2=1)
+abline(h=mean(myhis[,2]),lty=3,col=2)
+abline(h=mean(myhis[,2]),lty=3,col=2)
+clip(x1=13.5,x2=43,y1=0,y2=1)
+abline(h=mean(mytfbs[,2]),lty=3,col=2)
+abline(h=mean(mytfbs[,2]),lty=3,col=2)
