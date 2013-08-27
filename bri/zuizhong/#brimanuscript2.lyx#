@@ -1677,17 +1677,9 @@ Figure 4.
  (a) Scatter plot of predicted versus experimentally measured DNase-seq
  signals using all HM and TF binding features.
  The black line represents the linear fit between predicted and measured
- signals (
-\begin_inset Formula $R^{2}$
-\end_inset
-
-, coefficient of determination).
- (b) Comparison of prediction powers (
-\begin_inset Formula $R,$
-\end_inset
-
- the square root of coefficient of determination) between all possible one-featu
-re, two-feature, three-feature models and the full model in H1hesc.
+ signals (SCC, spearman correlation coefficient).
+ (b) Comparison of prediction powers between all possible one-feature, two-featu
+re, three-feature models and the full model in H1hesc.
  
 \end_layout
 

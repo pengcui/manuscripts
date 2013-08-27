@@ -189,8 +189,8 @@ openness
 
  of chromatin using histone modification features and transcription factor
  binding features respectively.
- We show that both these two types of features are highly predictive for
- chromatin accessibility in a statistical viewpoint.
+ We show that these two types of features are highly predictive for chromatin
+ accessibility in a statistical viewpoint.
  Moreover, our results indicate that these features are highly redundant
  and only a small number of features are needed to achieve a very high predictiv
 e power.
@@ -218,7 +218,7 @@ Abbreviations
 \size normal
 \color black
 DHS, DNase I hypersensitive site ; HM, histone modification; SVR, support
- vector regression; SCC, spearman correlation coefficient
+ vector regression
 \end_layout
 
 \begin_layout Standard
@@ -442,9 +442,9 @@ target "http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=341419765&c=chr21&g=wgEnc
  Each dataset includes the genome-wide sequencing signals and regions of
  statistically enriched signal (peaks).
  Peaks can be viewed as locations of chromatin features and DNase I hypersensiti
-ve sites respectively and the values of DNase-seq signals identify chromatin
+ve sites respectively and the values of DNase-seq signals represent chromatin
  accessibility.
- We mush note that DNase I hypersensitivity could not be simply viewed as
+ We must note that DNase I hypersensitivity could not be simply viewed as
  binary property (peaks versus non-peaks) but rather continuous values (sequenci
 ng signals) representing differential chromatin accessibility.
  These datasets come from the common H1hesc cell line.
@@ -527,13 +527,31 @@ In order to reduce the computation cost, we randomly selected 5000 DHSs
  was treated as the validation data for testing the model.
  This process was repeated 10 times and each subset could only be used once
  as the validation data.
- After that, we combined the results and calculated the spearman correlation
- coefficient (SCC) between predicted signals and actual DNase-seq signals.
- The SCC can be viewed as the prediction power.
- And the square of SCC (coefficient of determination) can be viewed as the
- proportion of the variation in chromatin accessibility that can be explained
- by the model.
+ After that, we combined the results and plotted the regression relationship
+ between predicted signals and the actual DNase-seq signals.
+ Then, the coefficient of determination (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-32"
+
+\end_inset
+
+ was computed indicating how well these data points fit the line.
  
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ is also a frequently-used measure of the proportion of total variation
+ of outcomes explained by the model.
+ We chose the square root of the coefficient of determination (
+\begin_inset Formula $R$
+\end_inset
+
+) as our prediction power.
 \end_layout
 
 \begin_layout Subsection*
@@ -581,7 +599,7 @@ Instead of SVR algorithm, we also explored the quantitative relationship
  model.
  Similarly, HM features, TF binding features and HM+TF feature combinations
  were applied to linear regression model respectively.
- The spearman correlation coefficient of the predicted signals and the actual
+ The coefficient of determination of the predicted signals and the actual
  DNase-seq signals were calculated and compared with the SVR models.
  In order to identify whether the maximum signals or the average signals
  exhibit largest prediction power, we also applied these models with the
@@ -600,7 +618,7 @@ Instead of SVR algorithm, we also explored the quantitative relationship
 \end_layout
 
 \begin_layout Standard
-We analyzed genome-wide localization of 33 Chip-seq profiles in the human
+We analyzed genome-wide localizations of 33 Chip-seq profiles in the human
  embryonic stem cell line (H1hesc) from ENCODE project 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -644,7 +662,7 @@ key "key-18"
 \end_layout
 
 \begin_layout Subsection*
-3.2 Predicting chromatin accessibility using histone modifications features
+3.2 Predicting chromatin accessibility using histone modification features
  
 \end_layout
 
@@ -653,19 +671,21 @@ In order to examine the quantitative relationship between chromatin accessibilit
 y and HM features in a combinatorial manner, we constructed SVR model to
  predict the “openness” of chromatin in DNase I hypersensitive sites using
  all histone modification features.
- We can see from Figure 2(a) that the predicted signals and the actual DNase-Seq
- signals are highly correlated with each other.
- The spearman correlation coefficient (SCC=0.70) can be viewed as the prediction
- power.
- This analysis suggests that histone modification features may explain less
- than 50% (the square of SCC) variance of chromatin accessibility.
+ We can see from Figure 2(a) that there is a linear relationship between
+ predicted signals and the actual DNase-Seq signals.
+ The coefficient of determination (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+) is 0.58 indicating that histone modification features may explain about
+ 58% variance of chromatin accessibility.
  
 \end_layout
 
 \begin_layout Standard
 We next examined the prediction power for every histone modification feature.
- Figure 2(b) shows that H3k4me3, H3k4me2 and H3k9ac exhibit the most important
- effects to chromatin accessibility (SCC = 0.58, 0.58, 0.57 respectively).
+ Figure 2(b) shows that H3k4me2, H3k4me3 and H3k9ac exhibit the most important
+ effects to chromatin accessibility (R = 0.67, 0.66, 0.63 respectively).
  These histone modifications are generally enriched in the promoters of
  expressed genes 
 \begin_inset CommandInset citation
@@ -676,9 +696,9 @@ key "key-19"
 
  and the open chromatin structure plays an important role in regulating
  the complex transcription process.
- On the other hand, H3k27me3, H3k9me3 and H3k36me3 exhibit the least prediction
- powers (SCC= 0.33, 0.30, 0.21 respectively), which suggests that these modificatio
-ns are associated with heterochromatin 
+ On the other hand, H3k9me3 and H3k36me3 exhibit the least prediction powers
+ (R= 0.30, 0.23 respectively), which suggests that these modifications are
+ associated with heterochromatin 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "key-20,key-21"
@@ -716,10 +736,14 @@ key "key-6,key-13"
  To investigate the quantitative relationship of the binding of transcription
  factors and the chromatin accessibility in a combinatorial manner, we next
  applied our SVR model to all TF binding features.
- As shown in Figure 3(a), the TF model achieves a correlation of 0.73 which
- is a little higher than that achieved by HM model.
- These TF binding features can explain more than 50% (the square of SCC)
- variance of chromatin accessibility.
+ As shown in Figure 3(a), the TF model achieves a coefficient of determination
+ (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+) of 0.58 which is equal to that achieved by HM model.
+ These TF binding features can also explain about 58% variance of chromatin
+ accessibility.
 \end_layout
 
 \begin_layout Standard
@@ -736,7 +760,7 @@ key "key-23"
 
  which requires an open chromatin environment.
  However, a small group of features exhibit lower prediction powers, such
- as ZNF274, SUZ12 and CTCF (SCC=0.31, 0.38, 0.42 respectively).
+ as ZNF274, CTCF and SUZ12 (R = 0.33, 0.36, 0.37 respectively).
  ZNF274 and SUZ12 are known to be transcriptional repressors 
 \begin_inset CommandInset citation
 LatexCommand citet
@@ -770,17 +794,20 @@ tion factor binding features are predictive for chromatin accessibility
  if we use all these features.
  To address this question, we directly predicted the “openness” of chromatin
  using all features.
- As shown in Figure 4(a), the prediction power (SCC=0.77) is only a little
- higher than using only TF binding features, which indicates that these
- two types of features are highly redundant.
+ As shown in Figure 4(a), the coefficient of determination (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ = 0.66) is a little higher (8%) than using only HM or TF binding features,
+ which indicates that these two types of features are highly redundant.
  To check the importance of different features and their combinatorial effects,
  we tried to build models with all possible combinations of one to three
  features (Figure 4(b)).
  Focusing on the three-feature combinations (5456 models), we found that
- the least prediction power combinations (H3k36me3, H4k20me1and H3k79me2,
- SCC=0.44) could achieve more than 57% prediction power of the full model
- (SCC= 0.77).
- And there are 137 combinations achieving more than 90% prediction power
+ the least prediction power combinations (H3k36me3, H3k9me3 and ZNF274,
+ R = 0.45) could achieve about 56% prediction power of the full model (R
+ = 0.81).
+ And there are 110 combinations achieving more than 90% prediction power
  of the full one.
  These analyses indicate that most of these features are highly redundant
  for chromatin accessibility.
@@ -788,15 +815,21 @@ tion factor binding features are predictive for chromatin accessibility
 \end_layout
 
 \begin_layout Standard
-By examining the 137 high prediction power combinations, we found that five
- chromatin features , SUZ12, SIN3A, H3k4me3, H3k9ac, GTF2F1, were significantly
- enriched (p<0.01, hypergeometric test) in the set of 137 models.
+By examining the 110 high prediction power combinations, we found that seven
+ chromatin features , H3k9ac, ZNF143, SIN3A, H4k20me1, H3k4me2, H3k4me3,
+ SUZ12, were significantly enriched (p<0.01, hypergeometric test) in the
+ set of 110 models.
  Interestingly, all these features showed high prediction powers in the
- one-feature models except SUZ12.
- This may indicate that SUZ12 has lower redundancy than other features and
- is more specific for prediction.
- This was supported by the finding that the correlation of SUZ12 levels
- with the other four features were 0.14, 0.21, 0.26 and 0.12.
+ one-feature models except H4k20me1 and SUZ12.
+ H4k20me1 is a particular one, which has been reported for the most predictive
+ histone modification for gene expression 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
  SUZ12 is a part of Polycomb Repressive Complex 2 (PRC2) and may be involved
  in chromatin silencing with non-coding RNA 
 \begin_inset CommandInset citation
@@ -824,7 +857,7 @@ In this study, we chose the SVR algorithm and the maximum signal in every
  We also have explored modeling using linear regression model and the average
  signal in every region.
  As shown in Table1, prediction powers of models using average signal are
- significantly lower than the maximum signal models.
+ significantly lower than the coresponding maximum signal models.
  And in either situation, the SVR models exhibit higher prediction power
  than linear models.
  Our results indicate that the “openness” of chromatin is determined by
@@ -877,10 +910,10 @@ stemness
 
 \begin_layout Standard
 Our results demonstrate that both histone modification (HM) features and
- transcription factor (TF) binding features account for nearly or more than
- 50% variation of chromatin accessibility in H1hesc cell line.
+ transcription factor (TF) binding features account for nearly 58% variation
+ of chromatin accessibility in H1hesc cell line.
  For histone hallmarks, many activators of gene expression exhibited important
- impact on the “openness” chromatin, such as H3k4me 
+ impact on the “openness” of chromatin, such as H3k4me 
 \begin_inset CommandInset citation
 LatexCommand citet
 key "key-20"
@@ -1002,8 +1035,8 @@ key "key-31"
 \begin_layout Standard
 We present genome-wide quantitative analysis about the impact of chromatin
  features to chromatin accessibility in DNase I hypersensitive sites.
- Our findings indicate that histone modifications and the binding of transcripti
-on factors could explain nearly or more than 50% variation of the 
+ Our findings indicate that both histone modifications and the binding of
+ transcription factors could explain nearly 58% variation of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1013,8 +1046,11 @@ openness
 
  of chromatin structure.
  The combinatorial effect analyses reveal that these chromatin features
- are highly redundant for prediction and SIN3A, H3k4me3, H3k9ac, GTF2F1
- show closest association with chromatin accessibility.
+ are highly redundant for prediction and H3k4me2, H3k4me3, H3k9ac,
+\end_layout
+
+\begin_layout Standard
+SIN3A, ZNF143 show closest association with chromatin accessibility.
  Our results provide insights into the systematic effects of chromatin features
  to differential chromatin accessibility.
  
@@ -1288,6 +1324,19 @@ Dimitriadou, Evgenia, Kurt Hornik, Friedrich Leisch, David Meyer, and Andreas
  Weingessel, Misc functions of the Department of Statistics (e1071), TU
  Wien, R package (2008) 1-5.
  
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-32"
+
+\end_inset
+
+Everitt,B.S.
+ (2002) Cambridge Dictionary of Statistics.
+ 2nd edn.
+ Cambridge University Press, New York.
 \end_layout
 
 \begin_layout Bibliography
@@ -1610,7 +1659,8 @@ Figure 4.
  Redundancy of HM features and TF binding features.
  (a) Scatter plot of predicted versus experimentally measured DNase-seq
  signals using all HM and TF binding features.
- (SCC, spearman correlation coefficient).
+ The black line represents the linear fit between predicted and measured
+ signals (SCC, spearman correlation coefficient).
  (b) Comparison of prediction powers between all possible one-feature, two-featu
 re, three-feature models and the full model in H1hesc.
  
@@ -1623,8 +1673,12 @@ Table 1.
 
 \series default
  Comparison of prediction powers with different models.
- The prediction power is represented as Spearman correlation coefficient
- of predicted signal and the actual DNase-seq signal.
+ The prediction power is represented as the square root of the coefficient
+ of determination (
+\begin_inset Formula $R$
+\end_inset
+
+) for predicted and the actual DNase-seq signals.
  LM: linear regression model.
  
 \end_layout
@@ -1668,7 +1722,7 @@ Figure 2.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure2.pdf
+	filename /home/ckivip/mywork/Dnase1/zlater/brimodify/Figure2.pdf
 	scale 65
 	BoundingBox 80bp 0bp 864bp 360bp
 
@@ -1689,7 +1743,7 @@ Figure 3.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure3.pdf
+	filename /home/ckivip/mywork/Dnase1/zlater/brimodify/Figure3.pdf
 	scale 65
 	BoundingBox 80bp 0bp 864bp 360bp
 
@@ -1713,7 +1767,7 @@ Figure 4.
 
 \begin_layout Standard
 \begin_inset Graphics
-	filename /home/ckivip/mywork/Dnase1/zlater/manuscripts/result/Figure4.pdf
+	filename /home/ckivip/mywork/Dnase1/zlater/brimodify/Figure4.pdf
 	scale 65
 	BoundingBox 80bp 0bp 864bp 360bp
 
@@ -1853,6 +1907,24 @@ HM
 \begin_inset Text
 
 \begin_layout Plain Layout
+0.76
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 0.70
 \end_layout
 
@@ -1862,25 +1934,7 @@ HM
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.63
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.60
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.51
+0.56
 \end_layout
 
 \end_inset
@@ -1900,16 +1954,7 @@ TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.73
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-0.68
+0.76
 \end_layout
 
 \end_inset
@@ -1927,7 +1972,16 @@ TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.56
+0.69
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.53
 \end_layout
 
 \end_inset
@@ -1947,7 +2001,7 @@ HM+TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.77
+0.81
 \end_layout
 
 \end_inset
@@ -1956,7 +2010,7 @@ HM+TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.71
+0.73
 \end_layout
 
 \end_inset
@@ -1965,7 +2019,7 @@ HM+TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.67
+0.75
 \end_layout
 
 \end_inset
@@ -1974,7 +2028,7 @@ HM+TF
 \begin_inset Text
 
 \begin_layout Plain Layout
-0.59
+0.61
 \end_layout
 
 \end_inset
