@@ -1,0 +1,313 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass extarticle
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 3cm
+\headsep 3cm
+\footskip 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+
+\series bold
+\size large
+Reviewer one
+\end_layout
+
+\begin_layout Standard
+\noindent
+(1) Fig 2a, Fig 3a and Fig 4a: Since SCC is adopted as correlation measurement,
+ it would be better to show the rank instead of log2.
+\end_layout
+
+\begin_layout Itemize
+This is a very good suggestion.
+ We'd better make the plotting and statistic consistent.
+\end_layout
+
+\begin_layout Itemize
+However, we do want to show the original data informations to readers.
+ We think that the original data informations are very important for readers.
+ When we do correlation analyses, the first thing is to make a scatter plot
+ to see whether they are correlated or not, no matter what correlation methods
+ we use.
+\end_layout
+
+\begin_layout Itemize
+If we present the rank information at first, some readers may just want
+ to know the information of predicted and actual signals or are confused
+ about it.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+So after a careful consideration and reading many papers, we decide to change
+ the SCC to 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ (the Coefficient of determination).
+ Most papers use 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ to determine the proportion of total variation of outcomes explained by
+ the model.
+ 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ and the plotting system are consistent.
+ We also change the prediction power to 
+\begin_inset Formula $R$
+\end_inset
+
+.
+ It's a better choice than SCC.
+\end_layout
+
+\begin_layout Standard
+(2) It would be better to open the datasets, R code and results.
+\end_layout
+
+\begin_layout Itemize
+We upload the input datasets to the supplementary materials, including average
+ signal dataset and the maximum signal dataset.
+\end_layout
+
+\begin_layout Itemize
+We open all our R codes, including SVR model, linear regression model, feature
+ combination analyses and all plotting codes.
+\end_layout
+
+\begin_layout Itemize
+We upload the prediction powers of all possible one-feature, two-feature,
+ three-feature combinations.
+\end_layout
+
+\begin_layout Itemize
+Anyone can reproduce these results using these datasets, R codes and methods
+ discussed in the manuscript.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Reviewer two
+\end_layout
+
+\begin_layout Standard
+\noindent
+(1) It's a nice methodology paper providing novel findings to chromatin
+ accessibility.
+ My only concern is the redundant words "both these two types of features"
+ in abstract.
+\end_layout
+
+\begin_layout Itemize
+I have deleted the word 
+\begin_inset Quotes eld
+\end_inset
+
+both
+\begin_inset Quotes erd
+\end_inset
+
+ in 
+\begin_inset Quotes eld
+\end_inset
+
+both these two types of features
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Reviewer three
+\end_layout
+
+\begin_layout Standard
+\noindent
+(1) In the title of section 3.2, “using histone modifications features” should
+ be “using histone modification features”.
+ 
+\end_layout
+
+\begin_layout Itemize
+I have changed 
+\begin_inset Quotes eld
+\end_inset
+
+using histone modifications features
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+using histone modification features
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(2) In paragraph 1, section 3.4, how 0.57, which is in the sentence “We found
+ that the least prediction power combinations (H3k36me3, H4k20me1and H3k79me2,
+ SCC=0.44) could achieve more than 57% prediction power of the full model
+ (SCC= 0.77)”, was calculated? 
+\end_layout
+
+\begin_layout Itemize
+0.57=0.44/0.77.
+ Only three features (the least one) can achieve about 57% prediction power
+ of the full one.
+ we tried to highlight the redundancy of different features.
+\end_layout
+
+\begin_layout Itemize
+I'm sorry that there are some confusions in this sentence.
+ We have changed 
+\begin_inset Quotes eld
+\end_inset
+
+more than
+\begin_inset Quotes erd
+\end_inset
+
+ in this sentence to 
+\begin_inset Quotes eld
+\end_inset
+
+about
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(3) In paragraph 2, section 4, “openness chromatin” should be ”openness
+ of chromatin”.
+ 
+\end_layout
+
+\begin_layout Itemize
+I have changed 
+\begin_inset Quotes eld
+\end_inset
+
+openness chromatin
+\begin_inset Quotes erd
+\end_inset
+
+ to 
+\begin_inset Quotes eld
+\end_inset
+
+ openness of chromatin
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(4) What the lines represent in Figure 4 should be indicated in the Figure
+ legend.
+\end_layout
+
+\begin_layout Itemize
+I have explained the black line in Figure 4 in the Figure legend.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+Thanks for your considerate reviewing my manuscript.
+ I'm very appreciated for your favorable suggestions.
+ 
+\end_layout
+
+\end_body
+\end_document

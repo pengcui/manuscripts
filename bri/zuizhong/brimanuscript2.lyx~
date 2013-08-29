@@ -677,8 +677,8 @@ y and HM features in a combinatorial manner, we constructed SVR model to
 \begin_inset Formula $R^{2}$
 \end_inset
 
-) is 0.58 indicating that histone modification features may explain about
- 58% variance of chromatin accessibility.
+) is 0.58 indicating that histone modification features explain about 58%
+ variance of chromatin accessibility.
  
 \end_layout
 
@@ -816,7 +816,7 @@ tion factor binding features are predictive for chromatin accessibility
 
 \begin_layout Standard
 By examining the 110 high prediction power combinations, we found that seven
- chromatin features , H3k9ac, ZNF143, SIN3A, H4k20me1, H3k4me2, H3k4me3,
+ chromatin features, H3k4me2, H3k4me3, H3k9ac, H4k20me1, SIN3A, ZNF143,
  SUZ12, were significantly enriched (p<0.01, hypergeometric test) in the
  set of 110 models.
  Interestingly, all these features showed high prediction powers in the
@@ -910,7 +910,7 @@ stemness
 
 \begin_layout Standard
 Our results demonstrate that both histone modification (HM) features and
- transcription factor (TF) binding features account for nearly 58% variation
+ transcription factor (TF) binding features account for nearly 58% variance
  of chromatin accessibility in H1hesc cell line.
  For histone hallmarks, many activators of gene expression exhibited important
  impact on the “openness” of chromatin, such as H3k4me 
@@ -1625,12 +1625,21 @@ Figure 1.
 Figure 2.
 
 \series default
- The prediction powers of chromatin accessibility using HM features.
+ Prediction accuracy of chromatin accessibility using HM features.
  (a) Scatter plot of predicted versus experimentally measured DNase-seq
  signals using all HM features.
  The black line represents the linear fit between predicted and measured
- signals (SCC, spearman correlation coefficient).
- (b) Prediction powers of the SVR models using only one particular HM feature.
+ signals (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, coefficient of determination).
+ (b) Prediction powers (
+\begin_inset Formula $R,$
+\end_inset
+
+ the square root of coefficient of determination) of the SVR models using
+ only one particular HM feature.
  
 \end_layout
 
@@ -1640,13 +1649,21 @@ Figure 2.
 Figure 3.
 
 \series default
- The prediction powers of chromatin accessibility using TF binding features.
+ Prediction accuracy of chromatin accessibility using TF binding features.
  (a) Scatter plot of predicted versus experimentally measured DNase-seq
  signals using all TF binding features.
  The black line represents the linear fit between predicted and measured
- signals (SCC, spearman correlation coefficient).
- (b) Prediction powers of the SVR models using only one particular TF binding
- feature.
+ signals (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, coefficient of determination).
+ (b) Prediction powers (
+\begin_inset Formula $R,$
+\end_inset
+
+ the square root of coefficient of determination) of the SVR models using
+ only one particular TF binding feature.
  
 \end_layout
 
@@ -1660,9 +1677,17 @@ Figure 4.
  (a) Scatter plot of predicted versus experimentally measured DNase-seq
  signals using all HM and TF binding features.
  The black line represents the linear fit between predicted and measured
- signals (SCC, spearman correlation coefficient).
- (b) Comparison of prediction powers between all possible one-feature, two-featu
-re, three-feature models and the full model in H1hesc.
+ signals (
+\begin_inset Formula $R^{2}$
+\end_inset
+
+, coefficient of determination).
+ (b) Comparison of prediction powers (
+\begin_inset Formula $R,$
+\end_inset
+
+ the square root of coefficient of determination) between all possible one-featu
+re, two-feature, three-feature models and the full model in H1hesc.
  
 \end_layout
 
