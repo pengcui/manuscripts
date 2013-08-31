@@ -1103,9 +1103,7 @@ key "key-31"
 We present genome-wide quantitative analysis about the impact of chromatin
  features to chromatin accessibility in DNase I hypersensitive sites.
  Our findings indicate that both histone modifications and the binding of
- transcription factors 
-\color red
-could explain nearly 58% variation of the 
+ transcription factors could explain nearly 58% variation of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1114,8 +1112,6 @@ openness
 \end_inset
 
  of chromatin structure.
-
-\color inherit
  The combinatorial effect analyses reveal that these chromatin features
  are highly redundant for prediction and 
 \color red
