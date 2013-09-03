@@ -847,7 +847,11 @@ the coefficient of determination (
 \color red
 H3k36me3, H3k9me3 and ZNF274, R = 0.45
 \color inherit
-) could achieve about 56% prediction power of the full model (
+) could achieve 
+\color red
+about 56%
+\color inherit
+ prediction power of the full model (
 \color red
 R = 0.81
 \color inherit
@@ -1139,8 +1143,9 @@ Acknowledgements
 
 \begin_layout Standard
 This work was funded by National Key Basic Research Program (2010CB912702,
- 2011CB910204), National Hi-Tech program (2012AA020201), National Natural
- Science Foundation of China (31070752).
+ 2011CB910204), National Hi-Tech program (2012AA020201), Key Infectious
+ Disease Project (2012ZX10002012-014), National Natural Science Foundation
+ of China (31070752).
  
 \end_layout
 

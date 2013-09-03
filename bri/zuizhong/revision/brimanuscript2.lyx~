@@ -847,7 +847,11 @@ the coefficient of determination (
 \color red
 H3k36me3, H3k9me3 and ZNF274, R = 0.45
 \color inherit
-) could achieve about 56% prediction power of the full model (
+) could achieve 
+\color red
+about 56%
+\color inherit
+ prediction power of the full model (
 \color red
 R = 0.81
 \color inherit
@@ -1103,7 +1107,9 @@ key "key-31"
 We present genome-wide quantitative analysis about the impact of chromatin
  features to chromatin accessibility in DNase I hypersensitive sites.
  Our findings indicate that both histone modifications and the binding of
- transcription factors could explain nearly 58% variation of the 
+ transcription factors 
+\color red
+could explain nearly 58% variation of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1112,6 +1118,8 @@ openness
 \end_inset
 
  of chromatin structure.
+
+\color inherit
  The combinatorial effect analyses reveal that these chromatin features
  are highly redundant for prediction and 
 \color red
